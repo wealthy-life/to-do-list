@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./design.css" /> 
+    <title>TO-DO LIST</title>
+</head>
+<body>
+    <div class="base">
+        <div class="task-det">
+            <div class="det">
+                <h1>TO-DO LIST</h1>
+                <p>You can do it !</p>
+                <div id="prog-bar">
+                    <div id="prog-fill"></div>
+                </div>
+            </div>
+            <div class="task-num"> 
+                <p id="num"> 0 </p>
+            </div>
+        </div>
+        <form action="">
+            <textarea rows="4" cols="50" id="task-content" placeholder="Enter your message"></textarea>
+            <button id="enter-btn"type="submit">+</button>
+        </form>
+    </div>
+    <div class="list">
+        <ul id="task-list"></ul>
+    </div>
+    <script src="./code.js"></script>
+</body>
+</html>
+
